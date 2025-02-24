@@ -29,3 +29,11 @@ class DiceSelect(EasyFrame):
         self.addLabel(text = "You rolled " + str(random.randint(1,6)), row = 1, column = 1)
 
 DiceSelect().mainloop()
+
+'''
+#Project Status Report 2#
+I have started this program with just trying to figure out
+and get used to the GUI code while also defining the different
+sets of die that can be rolled with this program. I have programmed
+a simple button that rolls a D6, a regular 6-sided die.
+'''
